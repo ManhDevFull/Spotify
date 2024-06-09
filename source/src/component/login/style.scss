@@ -1,0 +1,353 @@
+
+.Login {
+    position: absolute;
+    z-index: 9999;
+    top: 50px;
+    background: white;
+    left: 400px;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(232, 181, 181, 0.611);
+
+    &::after {
+        position: absolute;
+        z-index: -1;
+        width: 850px;
+        top: -400px;
+        left: 240px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: blue;
+        content: "";
+        box-shadow: 0px 0px 20px 20px blue, 0px 0px 10px 10px blue inset;
+    }
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        width: 850px;
+        top: 400px;
+        left: -500px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: green;
+        content: "";
+        box-shadow: 0px 0px 20px 20px green, 0px 0px 10px 10px green inset;
+    }
+
+    & h1 {
+        color: rgb(42, 145, 42);
+        height: 100px;
+        margin-top: 15px;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .x {
+        position: absolute;
+        z-index: 10000;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 35px;
+        color: white;
+        box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.798), 0px 0px 10px 5px rgba(255, 0, 0, 0.798) inset;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: rgb(244, 59, 59);
+        margin: 0;
+        background: red;
+
+        & svg {
+            font-size: 24px;
+        }
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & p {
+            margin-top: 20px;
+        }
+
+        & p:nth-child(3) {
+
+            display: flex;
+            width: 300px;
+            align-items: center;
+            height: 30px;
+            justify-content: start;
+            margin-top: 5px;
+
+            & input {
+                width: 13px;
+                height: 13px;
+                border-radius: 2px;
+            }
+
+            & label {
+                margin-bottom: 0px;
+                margin-left: 5px;
+            }
+        }
+
+        & label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        & input {
+            display: block;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            padding-left: 15px;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(35, 226, 115);
+        }
+
+        & button {
+            width: 300px;
+            height: 55px;
+            border: none;
+            box-shadow: 0px 0px 10px 1px green;
+            background: linear-gradient(30deg, rgb(95, 201, 95), green);
+            margin-top: 30px;
+            border-radius: 7px;
+            align-items: center;
+        }
+    }
+
+    & button {
+        width: 300px;
+        height: 55px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 10px 1px blue;
+        background: linear-gradient(30deg, rgb(109, 109, 196), blue);
+        margin-top: 30px;
+        border-radius: 7px;
+    }
+
+}
+
+// --------------Sign Up--------------
+.Signup {
+    position: absolute;
+    z-index: 9999;
+    top: 50px;
+    background: white;
+    left: 400px;
+    width: 500px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px rgba(232, 181, 181, 0.611);
+
+    &::after {
+        position: absolute;
+        z-index: -1;
+        width: 850px;
+        top: -400px;
+        left: 240px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: blue;
+        content: "";
+        box-shadow: 0px 0px 20px 20px blue, 0px 0px 10px 10px blue inset;
+    }
+
+    &::before {
+        position: absolute;
+        z-index: -1;
+        width: 850px;
+        top: 400px;
+        left: -500px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: green;
+        content: "";
+        box-shadow: 0px 0px 20px 20px green, 0px 0px 10px 10px green inset;
+    }
+
+    & h1 {
+        color: rgb(42, 145, 42);
+        height: 100px;
+        margin-top: 15px;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & .x {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        height: 35px;
+        color: white;
+        margin: 0;
+        background: red;
+        box-shadow: 0px 0px 10px 5px rgba(255, 0, 0, 0.798), 0px 0px 10px 5px rgba(255, 0, 0, 0.798) inset;
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: rgb(244, 59, 59);
+
+        & svg {
+            font-size: 24px;
+        }
+    }
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & p {
+            margin-top: 10px;
+        }
+
+        & p:nth-child(4) {
+
+            display: flex;
+            width: 300px;
+            align-items: center;
+            height: 30px;
+            justify-content: start;
+            margin-top: 5px;
+
+            & input {
+                width: 13px;
+                height: 13px;
+                border-radius: 2px;
+            }
+
+            & label {
+                margin-bottom: 0px;
+                margin-left: 5px;
+            }
+        }
+
+        & label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        & input {
+            display: block;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            padding-left: 15px;
+            font-size: 15px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid rgb(35, 226, 115);
+        }
+
+        & button {
+            width: 300px;
+            height: 55px;
+            border: none;
+            box-shadow: 0px 0px 10px 1px green;
+            background: linear-gradient(30deg, rgb(95, 201, 95), green);
+            margin-top: 30px;
+            border-radius: 7px;
+            align-items: center;
+        }
+    }
+
+    & button {
+        width: 300px;
+        height: 55px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 10px 1px blue;
+        background: linear-gradient(30deg, rgb(109, 109, 196), blue);
+        margin-top: 30px;
+        border-radius: 7px;
+    }
+
+}
+@media (width: 412px) and (height: 915px){
+    
+.Login {
+    z-index: 99;
+    left: 20px;
+    top: 95px;
+    width: 375px;
+    height: 600px;
+    & h1 {
+        font-size: 30px;
+    }
+    & form {
+        
+    & input{
+        border-radius: 50px;
+    }
+
+        & button {
+            border-radius: 50px;
+        }
+    }
+    & button {
+        font-size: 16px;
+        border-radius: 50px;
+    }
+}
+// --------------Sign Up--------------
+.Signup {
+    z-index: 99;
+    top: 95px;
+    background: white;
+    left: 20px;
+    width: 375px;
+    height: 600px;
+    & h1 {
+        font-size: 30px;
+    }
+
+   
+
+    & form {
+        input{border-radius: 50px;}
+
+        & button {
+            border-radius: 50px;
+        }
+    }
+
+    & button {
+        font-size: 16px;
+        border-radius: 50px;
+    }
+
+}
+}
