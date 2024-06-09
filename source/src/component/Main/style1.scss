@@ -60,10 +60,10 @@ main {
 
 .main1__song {
 
-    border-left: 1px solid rgba(128, 128, 128, 0.496);
     overflow-x: hidden;
     overflow-y: auto;
     height: 650px;
+     border-left: 1px solid #4C4D4E;
    
 
     &::-webkit-scrollbar {
